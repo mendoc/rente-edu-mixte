@@ -1,0 +1,304 @@
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row {
+        padding: 0 2%;
+    }
+    .col_section1 .taille_icone {
+        font-size: 300%;
+    }
+
+    blockquote,
+    cite {
+        font-size: 85%;
+    }
+
+    .floot_image {
+        background-color: rgb(255, 255, 255, 0.9);
+        margin: 0px 10px 80px;
+        padding: 0 0 100px;
+    }
+    cite .taille_icone {
+        font-size: 150%;
+        margin-right: 0px;
+    }
+
+    footer .container .copywrite {
+        margin-right: 5px;
+    }
+    footer .container .text {
+        flex-direction: column;
+    }
+
+    footer .container .text p {
+        color: white;
+        max-width: 95%;
+    }
+
+    footer .container .text .copywrite {
+        margin-right: 0;
+    }
+
+    footer .container .text .lesmenu {
+        display: flex;
+        margin-top: 30px;
+        justify-content: center;
+    }
+}
+
+/* de 768 à 1023px*/
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+    section {
+        padding: 60px 0;
+    }
+    .floot_image {
+        background-color: rgb(255, 255, 255, 0.9);
+        padding: 0 0 100px;
+    }
+    .col_section1 .taille_icone {
+        font-size: 250%;
+    }
+
+    .video_parametres {
+        margin-top: 0;
+    }
+
+    video {
+        max-width: 100%;
+        height: 450;
+    }
+
+    .parametres_box {
+        margin-top: 50px;
+    }
+
+    .parametres_box:last-child {
+        margin-top: 50px;
+    }
+
+    .parametres {
+        margin-bottom: 30px;
+    }
+    .parametres:last-of-type {
+        margin-bottom: 60px;
+    }
+
+    .detail_garantie .reponse_aux_questions {
+        padding: 20px 30px;
+    }
+
+    .simulation_form {
+        width: 80%;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+
+    .floot_image {
+        padding: 0 0 30px;
+    }
+}
+
+/* de 481 à 767px*/
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+    .col_section1 {
+        height: 180px;
+        margin-bottom: 10px;
+    }
+    .row,
+    .hero-text-box {
+        padding: 0 4%;
+    }
+    .col {
+        width: 100%;
+    }
+    video {
+        max-width: 100%;
+        height: 450;
+    }
+    .col_section1 .taille_icone {
+        font-size: 200%;
+    }
+
+    .detail_garantie .reponse_aux_questions {
+        padding: 20px 30px;
+    }
+
+    cite .taille_icone {
+        margin-right: 0px;
+    }
+    .floot_image {
+        padding: 0 0 20px;
+    }
+    h1 {
+        font-size: 180%;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
+
+    .btn_plein {
+        margin-bottom: 10px;
+    }
+
+    .interets_rente {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    /*.parametres_box{
+        margin-top: 10px;
+    }*/
+
+    .parametres {
+        margin-bottom: 20px;
+    }
+    .parametres:last-of-type {
+        margin-bottom: 20px;
+    }
+
+    .parametres div {
+        height: 45px;
+        width: 45px;
+        padding: 10px;
+        margin-right: 17px;
+        font-size: 120%;
+    }
+
+    .parametres_box:first-child {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 680px) {
+    .mx-3 {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .main-nav {
+        display: none;
+    }
+
+    .menu-open div:nth-child(1) {
+        transform: rotate(45deg);
+        margin-bottom: 0;
+    }
+
+    .menu-open div:nth-child(2) {
+        display: none;
+    }
+
+    .menu-open div:nth-child(3) {
+        transform: rotate(-45deg);
+        margin-top: -0.1rem;
+    }
+
+    .menu-open span {
+        display: inline-block;
+        margin-top: 15px;
+    }
+
+    .mx-3 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .barres {
+        display: block;
+        cursor: pointer;
+    }
+
+    .barres div {
+        height: 3px;
+        width: auto;
+        margin-bottom: 5px;
+        background-color: black;
+    }
+    .barres div:last-of-type {
+        margin-bottom: 0;
+    }
+    .barres span {
+        font-size: 0.5rem;
+        color: var(--color1);
+    }
+
+    .menu-items {
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 99;
+        background-color: #fff;
+        padding-bottom: 40px;
+    }
+    .menu-items > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 90vh;
+    }
+    .menu-items li {
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        margin: 10px 0;
+    }
+    .menu-items li a {
+        color: black;
+    }
+}
+
+/* de 0 à 480px*/
+@media only screen and (max-width: 480px) {
+    .detail_garantie .reponse_aux_questions {
+        padding: 20px 30px;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .col_section1 {
+        height: 210px;
+    }
+    section {
+        padding: 25px 0;
+    }
+
+    .simulation_form {
+        width: 100%;
+    }
+    .simulation_form .col {
+        margin-top: 7px;
+    }
+
+    .video_parametres {
+        width: 100%;
+        padding-top: 0;
+    }
+
+    .image_slider_contenu {
+        width: 100vw;
+    }
+
+    .img_slider:nth-last-of-type(1),
+    .img_slider:nth-last-of-type(5) {
+        display: none;
+    }
+}
