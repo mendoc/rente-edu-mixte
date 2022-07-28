@@ -3,6 +3,7 @@
     "short_name": "ASSUR EDUCATION",
     "name": "ASSUR EDUCATION",
     "id": "com.dimitriongoua.renteeducation",
+    "categories": ["finance"],
     "start_url": "/?source=pwa",
     "background_color": "#FFFFFF",
     "display": "standalone",
