@@ -3,7 +3,9 @@
     "short_name": "ASSUR EDUCATION",
     "name": "ASSUR EDUCATION",
     "id": "com.dimitriongoua.renteeducation",
-    "categories": ["finance"],
+    "categories": [
+        "finance"
+    ],
     "start_url": "/?source=pwa",
     "background_color": "#FFFFFF",
     "display": "standalone",
@@ -14,19 +16,33 @@
     "description": "Simulateur ASSUR EDUCATION",
     "shortcuts": [
         {
-          "name": "Simuler",
-          "short_name": "Simuler",
-          "description": "Simuler une prime",
-          "url": "/?simuler",
-          "icons": [
-            {
-              "src": "icons/android/android-launchericon-192-192.png",
-              "sizes": "192x192",
-              "type": "image/png"
-            }
-          ]
+            "name": "Simuler",
+            "short_name": "Simuler",
+            "description": "Simuler une prime",
+            "url": "/?simuler",
+            "icons": [
+                {
+                    "src": "icons/android/android-launchericon-192-192.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
         }
-      ],
+    ],
+    "screenshots": [
+        {
+            "src": "/images/screenshots/desk.png",
+            "sizes": "1280x800",
+            "platform": "wide",
+            "label": "Simuler vos primes depuis votre ordinateur."
+        },
+        {
+            "src": "/images/screenshots/mob.png",
+            "sizes": "750x1334",
+            "platform": "narrow",
+            "label": "Simuler vos primes depuis votre smartphone."
+        }
+    ],
     "icons": [
         {
             "src": "/images/windows11/SmallTile.scale-100.png",
