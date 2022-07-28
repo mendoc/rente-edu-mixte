@@ -1,4 +1,4 @@
-const cacheName = 'rente-education-1-00-05';
+const cacheName = 'rente-education-1-00-06';
 const assets = [
     '/',
     '/index.html',
