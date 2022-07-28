@@ -17,6 +17,8 @@
     <link rel="stylesheet" type="text/css" href="ressources/css/queries.css">
     <link rel="stylesheet" type="text/css" href="ressources/css/anime.min.css">
 
+    <link rel="manifest" href="manifest.json" />
+
     <title>Simulateur | Assur'Education</title>
 
     <style>
@@ -128,6 +130,11 @@
         </p>
     </footer>
 
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register("/sw.js");
+        }
+    </script>
     <script src="ressources/js/libs/jquery.min.js"></script>
     <script src="ressources/js/libs/respond.min.js"></script>
     <script src="ressources/js/libs/html5shiv.min.js"></script>
