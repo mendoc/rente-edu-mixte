@@ -5,9 +5,9 @@
             ],
             "target": {
                   "namespace": "android_app",
-                  "package_name": "io.gitpod.ws_eu54.app_5500_mendoc_renteedumixte_vxy5tv0nrys.twa",
+                  "package_name": "app.netlify.rente_education_mixte.twa",
                   "sha256_cert_fingerprints": [
-                        "66:CF:84:4E:7C:E1:0F:B8:93:95:50:E9:57:D7:6F:C2:57:93:BB:66:2A:B1:F6:76:88:D9:DC:E2:1F:E4:A9:96"
+                        "AE:27:AC:B9:0F:11:2D:62:A8:98:D0:EC:D8:46:AE:09:A7:F1:56:A6:0A:89:0A:6B:11:37:0B:3E:05:FC:3B:FD"
                   ]
             }
       }
